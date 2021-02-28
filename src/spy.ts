@@ -24,6 +24,7 @@ export function spy<T, U>(fn: (arg: T) => U, arg: T): ISpyResult<T, U> {
     const lastKey = path[path.length - 1];
 
     const childMetadata = getMetadata(child);
+    childMetadata.path = path;
     parent.children[lastKey] = has(parent.children, lastKey)
       ? mergeMetadata(
           parent.children[lastKey] as IMetadata<unknown>,

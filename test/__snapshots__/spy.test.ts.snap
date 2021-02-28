@@ -37,7 +37,9 @@ Object {
         "data": Array [
           1,
         ],
-        "path": Array [],
+        "path": Array [
+          "0",
+        ],
         "type": 8,
       },
       "1": Object {
@@ -45,7 +47,9 @@ Object {
         "data": Array [
           2,
         ],
-        "path": Array [],
+        "path": Array [
+          "1",
+        ],
         "type": 8,
       },
       "constructor": Object {
@@ -53,7 +57,9 @@ Object {
         "data": Array [
           [Function],
         ],
-        "path": Array [],
+        "path": Array [
+          "constructor",
+        ],
         "type": 128,
       },
       "length": Object {
@@ -61,7 +67,9 @@ Object {
         "data": Array [
           2,
         ],
-        "path": Array [],
+        "path": Array [
+          "length",
+        ],
         "type": 8,
       },
       "map": Object {
@@ -69,7 +77,9 @@ Object {
         "data": Array [
           [Function],
         ],
-        "path": Array [],
+        "path": Array [
+          "map",
+        ],
         "type": 128,
       },
     },
@@ -122,7 +132,11 @@ Object {
                 "data": Array [
                   42,
                 ],
-                "path": Array [],
+                "path": Array [
+                  "data",
+                  "0",
+                  "name",
+                ],
                 "type": 8,
               },
             },
@@ -131,7 +145,10 @@ Object {
                 "name": 42,
               },
             ],
-            "path": Array [],
+            "path": Array [
+              "data",
+              "0",
+            ],
             "type": 64,
           },
         },
@@ -142,7 +159,9 @@ Object {
             },
           ],
         ],
-        "path": Array [],
+        "path": Array [
+          "data",
+        ],
         "type": 32,
       },
     },
@@ -160,4 +179,44 @@ Object {
   },
   "result": 42,
 }
+`;
+
+exports[`spy 05. docs 1`] = `"andrew"`;
+
+exports[`spy 05. docs 2`] = `
+Array [
+  Array [
+    Array [],
+  ],
+  Array [
+    "object",
+  ],
+  Array [
+    Array [
+      "users",
+    ],
+  ],
+  Array [
+    "array",
+  ],
+  Array [
+    Array [
+      "users",
+      "0",
+    ],
+  ],
+  Array [
+    "object",
+  ],
+  Array [
+    Array [
+      "users",
+      "0",
+      "name",
+    ],
+  ],
+  Array [
+    "string",
+  ],
+]
 `;

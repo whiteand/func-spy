@@ -22,8 +22,8 @@ export function iterate(
     if (r !== undefined) {
       return r;
     }
-    if (!val.children) continue;
-    for (const child of Object.values(val.children)) {
+    if (!metadata.children) continue;
+    for (const child of Object.values(metadata.children)) {
       if (!child || child.type == null) continue;
       stack.push(child);
     }
