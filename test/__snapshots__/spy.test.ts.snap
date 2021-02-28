@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`spy 00. primitive 1`] = `
+Object {
+  "metadata": Object {
+    "children": Object {},
+    "data": Array [
+      2,
+    ],
+    "path": Array [],
+    "type": 8,
+  },
+  "result": 4,
+}
+`;
+
+exports[`spy 01. date 1`] = `
+Object {
+  "metadata": Object {
+    "children": Object {},
+    "data": Array [
+      2021-12-18T22:00:00.000Z,
+    ],
+    "path": Array [],
+    "type": 1024,
+  },
+  "result": "Sun Dec 19 2021 00:00:00 GMT+0200 (Eastern European Standard Time)",
+}
+`;
+
+exports[`spy 02. array 1`] = `
+Object {
+  "metadata": Object {
+    "children": Object {
+      "0": Object {
+        "children": Object {},
+        "data": Array [
+          1,
+        ],
+        "path": Array [],
+        "type": 8,
+      },
+      "1": Object {
+        "children": Object {},
+        "data": Array [
+          2,
+        ],
+        "path": Array [],
+        "type": 8,
+      },
+      "constructor": Object {
+        "children": Object {},
+        "data": Array [
+          [Function],
+        ],
+        "path": Array [],
+        "type": 128,
+      },
+      "length": Object {
+        "children": Object {},
+        "data": Array [
+          2,
+        ],
+        "path": Array [],
+        "type": 8,
+      },
+      "map": Object {
+        "children": Object {},
+        "data": Array [
+          [Function],
+        ],
+        "path": Array [],
+        "type": 128,
+      },
+    },
+    "data": Array [
+      Array [
+        1,
+        2,
+      ],
+    ],
+    "path": Array [],
+    "type": 32,
+  },
+  "result": Array [
+    2,
+    4,
+  ],
+}
+`;
+
+exports[`spy 03. object 1`] = `
+Object {
+  "metadata": Object {
+    "children": Object {},
+    "data": Array [
+      Object {
+        "andrew": "beletskiy",
+        "vasilina": "beletskaya",
+      },
+    ],
+    "path": Array [],
+    "type": 64,
+  },
+  "result": Array [
+    "andrew",
+    "vasilina",
+  ],
+}
+`;
+
+exports[`spy 04. nested 1`] = `
+Object {
+  "metadata": Object {
+    "children": Object {
+      "data": Object {
+        "children": Object {
+          "0": Object {
+            "children": Object {
+              "name": Object {
+                "children": Object {},
+                "data": Array [
+                  42,
+                ],
+                "path": Array [],
+                "type": 8,
+              },
+            },
+            "data": Array [
+              Object {
+                "name": 42,
+              },
+            ],
+            "path": Array [],
+            "type": 64,
+          },
+        },
+        "data": Array [
+          Array [
+            Object {
+              "name": 42,
+            },
+          ],
+        ],
+        "path": Array [],
+        "type": 32,
+      },
+    },
+    "data": Array [
+      Object {
+        "data": Array [
+          Object {
+            "name": 42,
+          },
+        ],
+      },
+    ],
+    "path": Array [],
+    "type": 64,
+  },
+  "result": 42,
+}
+`;
